@@ -1,6 +1,58 @@
-.box1 {
-    width: 300px;
+.flex-container {
+  display: flex;
+  background-color: rgb(166, 174, 182);
+}
+
+.logo {
+    width: 80%;
     border: 15px solid green;
     padding: 50px;
     margin: 20px;
+    /* flex-direction: column */
+  }
+  .menu {
+    width: 120%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    /* flex-direction: row */
+  }
+  .slideShow {
+    width: 300%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    /* margin-top: 150px; */
+  }
+
+  .feat {
+    width: 100%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    /* margin-top: 150px; */
+  }
+
+  .sideBar {
+    width: 70%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    /* margin-top: 350px; */
+  }
+
+  .textContent {
+    width: 180%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    /* margin-top: 350px; */
+  }
+
+  .footer {
+    width: 300%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    /* margin-top: 350px; */
   }
